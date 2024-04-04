@@ -1,4 +1,6 @@
-### **Hi i'm David Add me [![](https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-32.png)](https://www.linkedin.com/in/dsmora/)**
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dsmora&show_icons=true&theme=tokyonight)
+
+### **Hi I'm David Add me [![](https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-32.png)](https://www.linkedin.com/in/dsmora/)**
 ||||
 | :------------: | :------------: | :------------: |
 | [![](https://media.licdn.com/dms/image/D4E0BAQEcO3fgdcSiEg/company-logo_100_100/0/1688681342958/4geeksacademyes_logo?e=1718841600&v=beta&t=XheEMSdVgdVzKylzwDzdtdoQoC-r1-J3rIsNizsy6ko)](https://4geeksacademy.com/es/inicio) |  Senior Mentor | 2023 - Actual  |
@@ -10,4 +12,3 @@
 |[![](https://media.licdn.com/dms/image/D4E0BAQF1Schwdf9jnA/company-logo_100_100/0/1698930011678/banesco_banco_universal_logo?e=1718841600&v=beta&t=Z2pNpUdGD74ifbiMT23tas42YqVeHC517n-WbcIvVp4)](https://www.vocento.com/)| Especialista en TI | 2016 - 2017 |
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dsmora)](https://github.com/anuraghazra/github-readme-stats)
