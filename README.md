@@ -8,3 +8,6 @@
 | [![](https://media.licdn.com/dms/image/D4E0BAQG2v1JSFn0rhg/company-logo_100_100/0/1696964267902/everis_is_nttdata_logo?e=1718841600&v=beta&t=A7LXgbfs1v3-y90h2wv7r21ICMKfe6e6SrLNBgcMUyA)](https://es.nttdata.com/)  | Solutions Assistant|  2019 |
 |  [![](https://media.licdn.com/dms/image/C4D0BAQGMECzsrJmYRQ/company-logo_100_100/0/1675189746845/vocento_logo?e=1718841600&v=beta&t=LQ2jX66ZeLmaBOFmAM5Hzt856W_Qb3t501uN2k0XUSk)](https://www.vocento.com/) |  Técnico de Soporte Internet |  2017 - 2019 |
 |[![](https://media.licdn.com/dms/image/D4E0BAQF1Schwdf9jnA/company-logo_100_100/0/1698930011678/banesco_banco_universal_logo?e=1718841600&v=beta&t=Z2pNpUdGD74ifbiMT23tas42YqVeHC517n-WbcIvVp4)](https://www.vocento.com/)| Especialista en TI | 2016 - 2017 |
+
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dsmora)](https://github.com/anuraghazra/github-readme-stats)
