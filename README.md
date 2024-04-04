@@ -1,4 +1,4 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dsmora&show_icons=true&theme=tokyonight)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dsmora&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 ### **Hi I'm David Add me [![](https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-32.png)](https://www.linkedin.com/in/dsmora/)**
 ||||
