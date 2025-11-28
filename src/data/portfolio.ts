@@ -1,10 +1,10 @@
 import { SiteConfig, Skill, Experience } from '@/types';
 
 export const siteConfig: SiteConfig = {
-  name: 'David Mora',
-  title: 'Frontend Architect',
-  description: 'Building exceptional digital experiences with modern web technologies',
-  email: 'hello@dsmora.dev',
+  name: 'David Santiago Mora Toro',
+  title: 'TypeScript • JavaScript • React • Next.js',
+  description: 'Ing. Telecomunicaciones, inmerso en el mundo del desarrollo de software. En constante formación.',
+  email: 'dsmorat14@gmail.com',
   socialLinks: [
     { name: 'GitHub', url: 'https://github.com/dsmora', icon: 'github' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/dsmora/', icon: 'linkedin' },
@@ -15,11 +15,17 @@ export const skills: Skill[] = [
   { name: 'React', level: 'expert', category: 'frontend' },
   { name: 'TypeScript', level: 'expert', category: 'frontend' },
   { name: 'Next.js', level: 'expert', category: 'frontend' },
+  { name: 'Vite', level: 'advanced', category: 'frontend' },
+  { name: 'React Query', level: 'advanced', category: 'frontend' },
   { name: 'Tailwind CSS', level: 'advanced', category: 'frontend' },
   { name: 'Node.js', level: 'advanced', category: 'backend' },
-  { name: 'PostgreSQL', level: 'intermediate', category: 'backend' },
+  { name: 'MongoDB', level: 'intermediate', category: 'backend' },
+  { name: 'MySQL', level: 'intermediate', category: 'backend' },
   { name: 'Git', level: 'expert', category: 'tools' },
+  { name: 'Vitest', level: 'advanced', category: 'tools' },
   { name: 'Figma', level: 'advanced', category: 'design' },
+  { name: 'Python', level: 'intermediate', category: 'backend' },
+  { name: 'Bootstrap', level: 'advanced', category: 'frontend' },
 ];
 
 export const experiences: Experience[] = [
@@ -34,6 +40,15 @@ export const experiences: Experience[] = [
   },
   {
     id: '2',
+    company: '4Geeks Academy España',
+    role: 'Senior Mentor',
+    startDate: '2023-11',
+    description: 'Mentoría a estudiantes del bootcamp de desarrollo web. Apoyo en proyectos con React.js, JavaScript y tecnologías frontend. Jornada parcial en remoto.',
+    technologies: ['React', 'JavaScript', 'Python', 'Bootstrap', 'Git'],
+    highlighted: true,
+  },
+  {
+    id: '3',
     company: 'MyInvestor',
     role: 'Senior Frontend Developer',
     startDate: '2022-08',
@@ -43,7 +58,7 @@ export const experiences: Experience[] = [
     highlighted: true,
   },
   {
-    id: '3',
+    id: '4',
     company: 'Finect',
     role: 'Frontend Developer',
     startDate: '2020-01',
@@ -52,7 +67,7 @@ export const experiences: Experience[] = [
     technologies: ['JavaScript', 'React', 'Node.js', 'MySQL', 'PHP', 'Redux', 'Jest', 'MongoDB', 'Docker', 'Jenkins'],
   },
   {
-    id: '4',
+    id: '5',
     company: 'CSA Centro de Servicios Avanzados',
     role: 'Analista Programador',
     startDate: '2019-10',
@@ -61,7 +76,7 @@ export const experiences: Experience[] = [
     technologies: ['Java', 'JSP', 'Spring', 'Oracle', 'PostgreSQL', 'JUnit'],
   },
   {
-    id: '5',
+    id: '6',
     company: 'Everis',
     role: 'Solutions Assistant',
     startDate: '2019-04',
@@ -70,7 +85,7 @@ export const experiences: Experience[] = [
     technologies: ['Node.js', 'Express', 'Angular', 'JWT', 'bcrypt'],
   },
   {
-    id: '6',
+    id: '7',
     company: 'Ibermática',
     role: 'Técnico de Soporte Internet',
     startDate: '2017-03',
@@ -79,7 +94,7 @@ export const experiences: Experience[] = [
     technologies: ['JIRA', 'Web Platforms'],
   },
   {
-    id: '7',
+    id: '8',
     company: 'Banesco Banco Universal',
     role: 'Especialista de Gestión de Innovación TI',
     startDate: '2016-02',
