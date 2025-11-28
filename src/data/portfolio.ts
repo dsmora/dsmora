@@ -1,0 +1,90 @@
+import { SiteConfig, Skill, Experience } from '@/types';
+
+export const siteConfig: SiteConfig = {
+  name: 'David Mora',
+  title: 'Frontend Architect',
+  description: 'Building exceptional digital experiences with modern web technologies',
+  email: 'hello@dsmora.dev',
+  socialLinks: [
+    { name: 'GitHub', url: 'https://github.com/dsmora', icon: 'github' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/dsmora/', icon: 'linkedin' },
+  ],
+};
+
+export const skills: Skill[] = [
+  { name: 'React', level: 'expert', category: 'frontend' },
+  { name: 'TypeScript', level: 'expert', category: 'frontend' },
+  { name: 'Next.js', level: 'expert', category: 'frontend' },
+  { name: 'Tailwind CSS', level: 'advanced', category: 'frontend' },
+  { name: 'Node.js', level: 'advanced', category: 'backend' },
+  { name: 'PostgreSQL', level: 'intermediate', category: 'backend' },
+  { name: 'Git', level: 'expert', category: 'tools' },
+  { name: 'Figma', level: 'advanced', category: 'design' },
+];
+
+export const experiences: Experience[] = [
+  {
+    id: '1',
+    company: 'Idealista',
+    role: 'Frontend Developer',
+    startDate: '2025-09',
+    description: 'Análisis y desarrollo de funcionalidades de la web dedicada a la visualización de inmuebles. Centrado en la home y el detalle de los anuncios. Definición de la arquitectura para un nuevo proyecto NextJS.',
+    technologies: ['JavaScript', 'TypeScript', 'React', 'Vite', 'Next.js', 'React Query', 'CSS', 'Jenkins'],
+    highlighted: true,
+  },
+  {
+    id: '2',
+    company: 'MyInvestor',
+    role: 'Senior Frontend Developer',
+    startDate: '2022-08',
+    endDate: '2025-08',
+    description: 'Análisis y desarrollo de funcionalidades de la app principal del banco, desarrollo de nuevas páginas y cambios sobre las actuales de la web comercial y landings de publicidad, revisión de código y mentorización de compañeros.',
+    technologies: ['JavaScript', 'TypeScript', 'React', 'Vite', 'Next.js', 'React Query', 'React Testing Library', 'Vanilla Extract', 'Teamcity'],
+    highlighted: true,
+  },
+  {
+    id: '3',
+    company: 'Finect',
+    role: 'Frontend Developer',
+    startDate: '2020-01',
+    endDate: '2022-07',
+    description: 'Desarrollo frontend y backend con NodeJS, React, Redux. Prototipado y diseño de interfaz con conceptos UX. Contacto directo con unidades de negocio para toma de requerimientos.',
+    technologies: ['JavaScript', 'React', 'Node.js', 'MySQL', 'PHP', 'Redux', 'Jest', 'MongoDB', 'Docker', 'Jenkins'],
+  },
+  {
+    id: '4',
+    company: 'CSA Centro de Servicios Avanzados',
+    role: 'Analista Programador',
+    startDate: '2019-10',
+    endDate: '2020-01',
+    description: 'Mantenimiento y mejora de aplicaciones web existentes. Análisis y gestión de requerimientos. Desarrollo de API Rest con Spring y pruebas unitarias con JUnit 5.',
+    technologies: ['Java', 'JSP', 'Spring', 'Oracle', 'PostgreSQL', 'JUnit'],
+  },
+  {
+    id: '5',
+    company: 'Everis',
+    role: 'Solutions Assistant',
+    startDate: '2019-04',
+    endDate: '2019-09',
+    description: 'Desarrollo de microservicios API Rest con NodeJS y ExpressJS. Implementación de validaciones, encriptación con bcrypt y autenticación JWT. Desarrollo de componentes Angular 8.',
+    technologies: ['Node.js', 'Express', 'Angular', 'JWT', 'bcrypt'],
+  },
+  {
+    id: '6',
+    company: 'Ibermática',
+    role: 'Técnico de Soporte Internet',
+    startDate: '2017-03',
+    endDate: '2019-04',
+    description: 'Técnico de Soporte Nivel 2 asignado a Vocento S.A. Gestión de incidencias relacionadas a las plataformas web de 25 medios digitales. Gestión y administración de JIRA.',
+    technologies: ['JIRA', 'Web Platforms'],
+  },
+  {
+    id: '7',
+    company: 'Banesco Banco Universal',
+    role: 'Especialista de Gestión de Innovación TI',
+    startDate: '2016-02',
+    endDate: '2017-01',
+    description: 'Gestión de proyectos con metodología Scrum. Evaluación de nuevas tecnologías. Implementación de G Suite y desarrollo de sitios web con Google Sites y AppScript.',
+    technologies: ['Scrum', 'Google Sites', 'Google AppScript', 'HTML', 'CSS', 'JavaScript'],
+  },
+];
