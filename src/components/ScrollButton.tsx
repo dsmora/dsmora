@@ -2,11 +2,11 @@
 
 import { scrollTo } from '@/utils';
 
-interface ScrollButtonProps {
+type ScrollButtonProps = {
   target: string;
   children: React.ReactNode;
   className?: string;
-}
+};
 
 export function ScrollButton({ target, children, className }: ScrollButtonProps) {
   return (

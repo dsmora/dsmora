@@ -1,10 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import { experiences } from '@/data/portfolio';
+import type { Experience as ExperienceType } from '@/types';
 import { ExperienceItem } from './ExperienceItem';
 
-export function Experience() {
+type ExperienceProps = {
+  experiences: ReadonlyArray<ExperienceType>;
+};
+
+export function Experience({ experiences }: ExperienceProps) {
   const [openIds, setOpenIds] = useState<Set<string>>(() => {
     const highlighted = experiences.filter((exp) => exp.highlighted).map((exp) => exp.id);
     return new Set(highlighted);

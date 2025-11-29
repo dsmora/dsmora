@@ -1,6 +1,10 @@
-import { siteConfig } from '@/data/portfolio';
+import { SiteConfig } from '@/types';
 
-export function Contact() {
+type ContactProps = {
+  siteConfig: SiteConfig;
+};
+
+export function Contact({ siteConfig }: ContactProps) {
   return (
     <section id="contact" className="py-24 px-6 bg-zinc-50 dark:bg-zinc-900/50">
       <div className="max-w-6xl mx-auto text-center">

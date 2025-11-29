@@ -1,4 +1,3 @@
-import { skills } from '@/data/portfolio';
 import { Skill } from '@/types';
 
 const levelColors: Record<Skill['level'], string> = {
@@ -15,7 +14,11 @@ const categoryLabels: Record<Skill['category'], string> = {
   design: 'Design',
 };
 
-export function Skills() {
+type SkillsProps = {
+  skills: ReadonlyArray<Skill>;
+};
+
+export function Skills({ skills }: SkillsProps) {
   const groupedSkills = skills.reduce(
     (acc, skill) => {
       if (!acc[skill.category]) {

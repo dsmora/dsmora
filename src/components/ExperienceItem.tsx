@@ -2,11 +2,11 @@
 
 import type { Experience } from '@/types';
 
-interface ExperienceItemProps {
+type ExperienceItemProps = {
   experience: Experience;
   isOpen: boolean;
   onToggle: () => void;
-}
+};
 
 export function ExperienceItem({ experience, isOpen, onToggle }: ExperienceItemProps) {
   return (

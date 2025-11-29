@@ -3,7 +3,7 @@ import { SiteConfig, Skill, Experience } from '@/types';
 export const siteConfig: SiteConfig = {
   name: 'David Santiago Mora Toro',
   title: 'TypeScript • JavaScript • React • Next.js',
-  description: 'Ing. Telecomunicaciones, inmerso en el mundo del desarrollo de software. En constante formación.',
+  description: 'Ingeniero de Telecomunicaciones y Desarrollador Frontend Senior. Especializado en construir aplicaciones web modernas y escalables con React, Next.js y TypeScript.',
   email: 'dsmorat14@gmail.com',
   socialLinks: [
     { name: 'GitHub', url: 'https://github.com/dsmora', icon: 'github' },
@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   ],
 };
 
-export const skills: Skill[] = [
+export const skills: ReadonlyArray<Skill> = [
   { name: 'React', level: 'expert', category: 'frontend' },
   { name: 'TypeScript', level: 'expert', category: 'frontend' },
   { name: 'Next.js', level: 'expert', category: 'frontend' },
@@ -28,13 +28,13 @@ export const skills: Skill[] = [
   { name: 'Bootstrap', level: 'advanced', category: 'frontend' },
 ];
 
-export const experiences: Experience[] = [
+export const experiences: ReadonlyArray<Experience> = [
   {
     id: '1',
     company: 'Idealista',
     role: 'Frontend Developer',
     startDate: '2025-09',
-    description: 'Análisis y desarrollo de funcionalidades de la web dedicada a la visualización de inmuebles. Centrado en la home y el detalle de los anuncios. Definición de la arquitectura para un nuevo proyecto NextJS.',
+    description: 'Desarrollo y optimización de funcionalidades clave en la plataforma inmobiliaria, con foco en Home y Detalle de Anuncios. Definición de arquitectura técnica para nuevos proyectos basados en Next.js.',
     technologies: ['JavaScript', 'TypeScript', 'React', 'Vite', 'Next.js', 'React Query', 'CSS', 'Jenkins'],
     highlighted: true,
   },
@@ -43,7 +43,7 @@ export const experiences: Experience[] = [
     company: '4Geeks Academy España',
     role: 'Senior Mentor',
     startDate: '2023-11',
-    description: 'Mentoría a estudiantes del bootcamp de desarrollo web. Apoyo en proyectos con React.js, JavaScript y tecnologías frontend. Jornada parcial en remoto.',
+    description: 'Mentoría técnica especializada para estudiantes de desarrollo web. Guía en mejores prácticas, revisión de código y apoyo en proyectos complejos con React y ecosistema JavaScript.',
     technologies: ['React', 'JavaScript', 'Python', 'Bootstrap', 'Git'],
     highlighted: true,
   },
@@ -53,7 +53,7 @@ export const experiences: Experience[] = [
     role: 'Senior Frontend Developer',
     startDate: '2022-08',
     endDate: '2025-08',
-    description: 'Análisis y desarrollo de funcionalidades de la app principal del banco, desarrollo de nuevas páginas y cambios sobre las actuales de la web comercial y landings de publicidad, revisión de código y mentorización de compañeros.',
+    description: 'Liderazgo técnico en el frontend de la banca digital. Desarrollo de nuevas funcionalidades para la web comercial y app, optimización de rendimiento, code reviews y mentorización del equipo.',
     technologies: ['JavaScript', 'TypeScript', 'React', 'Vite', 'Next.js', 'React Query', 'React Testing Library', 'Vanilla Extract', 'Teamcity'],
     highlighted: true,
   },
@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     role: 'Frontend Developer',
     startDate: '2020-01',
     endDate: '2022-07',
-    description: 'Desarrollo frontend y backend con NodeJS, React, Redux. Prototipado y diseño de interfaz con conceptos UX. Contacto directo con unidades de negocio para toma de requerimientos.',
+    description: 'Desarrollo Full Stack (React/Node.js) para la plataforma financiera. Colaboración directa con producto para definición de requisitos, prototipado UX/UI y entrega de soluciones de valor.',
     technologies: ['JavaScript', 'React', 'Node.js', 'MySQL', 'PHP', 'Redux', 'Jest', 'MongoDB', 'Docker', 'Jenkins'],
   },
   {
@@ -72,7 +72,7 @@ export const experiences: Experience[] = [
     role: 'Analista Programador',
     startDate: '2019-10',
     endDate: '2020-01',
-    description: 'Mantenimiento y mejora de aplicaciones web existentes. Análisis y gestión de requerimientos. Desarrollo de API Rest con Spring y pruebas unitarias con JUnit 5.',
+    description: 'Mantenimiento evolutivo de aplicaciones corporativas. Desarrollo de APIs RESTful robustas con Spring Boot y aseguramiento de calidad mediante pruebas unitarias con JUnit.',
     technologies: ['Java', 'JSP', 'Spring', 'Oracle', 'PostgreSQL', 'JUnit'],
   },
   {
@@ -81,7 +81,7 @@ export const experiences: Experience[] = [
     role: 'Solutions Assistant',
     startDate: '2019-04',
     endDate: '2019-09',
-    description: 'Desarrollo de microservicios API Rest con NodeJS y ExpressJS. Implementación de validaciones, encriptación con bcrypt y autenticación JWT. Desarrollo de componentes Angular 8.',
+    description: 'Arquitectura y desarrollo de microservicios seguros con Node.js/Express. Implementación de autenticación JWT y desarrollo de componentes frontend reutilizables en Angular.',
     technologies: ['Node.js', 'Express', 'Angular', 'JWT', 'bcrypt'],
   },
   {
@@ -90,7 +90,7 @@ export const experiences: Experience[] = [
     role: 'Técnico de Soporte Internet',
     startDate: '2017-03',
     endDate: '2019-04',
-    description: 'Técnico de Soporte Nivel 2 asignado a Vocento S.A. Gestión de incidencias relacionadas a las plataformas web de 25 medios digitales. Gestión y administración de JIRA.',
+    description: 'Soporte técnico Nivel 2 para grandes medios digitales. Gestión crítica de incidencias en plataformas de alto tráfico y administración de flujos de trabajo en JIRA.',
     technologies: ['JIRA', 'Web Platforms'],
   },
   {
@@ -99,7 +99,7 @@ export const experiences: Experience[] = [
     role: 'Especialista de Gestión de Innovación TI',
     startDate: '2016-02',
     endDate: '2017-01',
-    description: 'Gestión de proyectos con metodología Scrum. Evaluación de nuevas tecnologías. Implementación de G Suite y desarrollo de sitios web con Google Sites y AppScript.',
-    technologies: ['Scrum', 'Google Sites', 'Google AppScript', 'HTML', 'CSS', 'JavaScript'],
+    description: 'Gestión ágil de proyectos de innovación con Scrum. Evaluación de tecnologías emergentes, implementación de soluciones Cloud y automatización de procesos.',
+    technologies: ['Scrum', 'Google AppScript', 'HTML', 'CSS', 'JavaScript'],
   },
 ];

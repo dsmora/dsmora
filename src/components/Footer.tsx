@@ -1,6 +1,10 @@
-import { siteConfig } from '@/data/portfolio';
+import { SiteConfig } from '@/types';
 
-export function Footer() {
+type FooterProps = {
+  siteConfig: SiteConfig;
+};
+
+export function Footer({ siteConfig }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   return (
