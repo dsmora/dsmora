@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { siteConfig } from "@/data/portfolio";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,10 +12,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: `${siteConfig.name} | ${siteConfig.title}`,
-  description: siteConfig.description,
-};
+import { getSiteConfig } from "@/lib/notion";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const siteConfig = await getSiteConfig();
+  return {
+    title: `${siteConfig.name} | ${siteConfig.title}`,
+    description: siteConfig.description,
+  };
+}
 
 export default function RootLayout({
   children,
