@@ -1,0 +1,33 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - ssh
+
+  ssh:
+    image: lscr.io/linuxserver/openssh-server:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - PASSWORD_ACCESS=true
+      - USER_NAME=${SSH_USER:-devuser}
+      - USER_PASSWORD=${SSH_PASSWORD}
+    ports:
+      - "2222:2222"
+    volumes:
+      - ./src:/config/app/src
+
+volumes:
+  node_modules:
